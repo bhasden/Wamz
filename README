@@ -5,5 +5,9 @@ Thanks to Jonas Rask (http://www.jonasraskdesign.com) for the "iTunes Speaker" i
 Developed and maintained by Brian Hasden (http://www.brianhasden.com).
 
 History of Changes:
+0.1.2 - Fixed shortcut on start menu to include icon
 0.1.1 - Added shortcut to start menu when installer runs
 0.1.0 - Initial Release
+
+Future Changes:
+- Switch from FileSystemWatcher to polling to allow network drop locations
