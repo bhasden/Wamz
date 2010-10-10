@@ -43,6 +43,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -126,6 +142,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8B99B708AC184ECC89EECCF3A4E9842B"
+                    {
+                    "Name" = "8:Riotous Labs"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_9F69920A57D14FC39EE7099848FD0272"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -144,15 +171,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Wamz"
-        "ProductCode" = "8:{0B4D79FD-DAB5-43CE-B584-92C78D7C4DF6}"
-        "PackageCode" = "8:{AF457986-0E2D-4E45-9604-A0E5DA10AC7F}"
+        "ProductCode" = "8:{9B277F39-6A65-49D9-997E-3E2B09A9107A}"
+        "PackageCode" = "8:{B6975D87-EB1C-40BC-B130-1A64148EFD02}"
         "UpgradeCode" = "8:{CD2CBC1E-5041-47DC-A0BA-858AF511F4F6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.1.0"
+        "ProductVersion" = "8:0.1.1"
         "Manufacturer" = "8:Riotous Labs"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -265,6 +292,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4DADCF5245B945C38A08BA09F1E785F9"
+            {
+            "Name" = "8:Wamz"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3C328B3E646644B0B29D19072F131444"
+            "Folder" = "8:_8B99B708AC184ECC89EECCF3A4E9842B"
+            "WorkingFolder" = "8:_358E16041CB14AD9B7C25C8B737235AE"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
