@@ -3,3 +3,7 @@ Watches a directory for Amazon MP3 .amz files and then executes the application 
 Thanks to Jonas Rask (http://www.jonasraskdesign.com) for the "iTunes Speaker" icon archive where the Wamz icon was retrieved.
 
 Developed and maintained by Brian Hasden (http://www.brianhasden.com).
+
+History of Changes:
+0.1.1 - Added shortcut to start menu when installer runs
+0.1.0 - Initial Release
