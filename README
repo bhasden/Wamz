@@ -1,5 +1,5 @@
 Watches a directory for Amazon MP3 .amz files and then executes the application associated with the .amz files. This allows the Amazon MP3 downloader (or other associated app) to open up and begin downloading the purchased music files.
 
-Thanks to Jonas Rask (http://www.jonasraskdesign.com) for the \"iTunes Speaker\" icon archive where the Wamz icon was retrieved.
+Thanks to Jonas Rask (http://www.jonasraskdesign.com) for the "iTunes Speaker" icon archive where the Wamz icon was retrieved.
 
 Developed and maintained by Brian Hasden (http://www.brianhasden.com).
