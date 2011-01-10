@@ -10,4 +10,4 @@ History of Changes:
 0.1.0 - Initial Release
 
 Future Changes:
-- Switch from FileSystemWatcher to polling to allow network drop locations
+- Switch from FileSystemWatcher to polling a directory to allow watching of mapped network drives
