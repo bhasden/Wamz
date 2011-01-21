@@ -50,6 +50,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -184,15 +197,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Wamz"
-        "ProductCode" = "8:{0EE72C81-B0A4-45CD-AD1A-D187EC6A9F66}"
-        "PackageCode" = "8:{794CDB2B-244E-4CCE-9BA2-28F2EF15F466}"
+        "ProductCode" = "8:{DF2AF07B-521B-40DB-B0B1-4B2DE8A1BC0E}"
+        "PackageCode" = "8:{C5D302D9-4556-4691-B294-18F4B0E4CEB7}"
         "UpgradeCode" = "8:{CD2CBC1E-5041-47DC-A0BA-858AF511F4F6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.1.2"
+        "ProductVersion" = "8:0.2"
         "Manufacturer" = "8:Riotous Labs"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -200,7 +213,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:Riotous Labs"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:Watches a directory for Amazon MP3 .amz files and then executes the application associated with the .amz files. This allows the Amazon MP3 downloader (or other associated app) to open up and begin downloading the purchased music files."
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_3C328B3E646644B0B29D19072F131444"
         "ARPIconIndex" = "3:32512"

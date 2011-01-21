@@ -15,7 +15,18 @@ namespace Wamz
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Settings());
+
+            if (AppSettings.Default.ShowSettingsAtStartup)
+            {
+                AppSettings.Default.ShowSettingsAtStartup = false;
+                AppSettings.Default.Save();
+                Application.Run(new Settings());
+            }
+            else
+            {
+                new Settings();
+                Application.Run();
+            }
         }
     }
 }

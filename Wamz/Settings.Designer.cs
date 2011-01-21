@@ -89,8 +89,7 @@
             // 
             // Browse
             // 
-            this.Browse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.Browse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Browse.Location = new System.Drawing.Point(248, 6);
             this.Browse.Name = "Browse";
             this.Browse.Size = new System.Drawing.Size(24, 20);
@@ -154,10 +153,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
             this.ClientSize = new System.Drawing.Size(284, 67);
-            this.Controls.Add(this.Browse);
             this.Controls.Add(this.Cancel);
-            this.Controls.Add(this.WatchDirectory);
+            this.Controls.Add(this.Browse);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.WatchDirectory);
             this.Controls.Add(this.Ok);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;

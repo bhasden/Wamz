@@ -35,12 +35,14 @@ namespace Wamz
 
         private void Cancel_Click(object sender, EventArgs e)
         {
+            AppSettings.Default.Reset();
             this.Close();
         }
 
         private void Ok_Click(object sender, EventArgs e)
         {
             AppSettings.Default.WatchDirectory = WatchDirectory.Text;
+            AppSettings.Default.Save();
             fileSystemWatcher1.Path = WatchDirectory.Text;
             this.Close();
         }
@@ -59,6 +61,7 @@ namespace Wamz
                 if (AppSettings.Default.ShowCloseTip)
                 {
                     AppSettings.Default.ShowCloseTip = false;
+                    AppSettings.Default.Save();
                     notifyIcon1.ShowBalloonTip(2500, "Information", "Wamz is still running. To close, right-click on the Wamz icon and select 'Close' from the options.", ToolTipIcon.Info);
                 }
             }
@@ -80,8 +83,17 @@ namespace Wamz
         #endregion
 
         #region ToolStrip Events
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (m_AboutBox.Visible != true)
+            {
+                m_AboutBox.Show();
+            }
+        }
+
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            m_AboutBox.Close();
             Application.Exit();
         }
 
@@ -114,14 +126,6 @@ namespace Wamz
             catch
             {
                 //Eat exception since there's really nothing we can do
-            }
-        }
-
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (m_AboutBox.Visible != true)
-            {
-                m_AboutBox.Show();
             }
         }
     }

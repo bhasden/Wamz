@@ -108,8 +108,11 @@ namespace Wamz
 
         private void AboutBox_FormClosing(object sender, FormClosingEventArgs e)
         {
-            e.Cancel = true;
-            this.Hide();
+            if (e.CloseReason != CloseReason.ApplicationExitCall)
+            {
+                e.Cancel = true;
+                this.Hide();
+            }
         }
     }
 }

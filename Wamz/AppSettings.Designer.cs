@@ -46,5 +46,17 @@ namespace Wamz {
                 this["WatchDirectory"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ShowSettingsAtStartup {
+            get {
+                return ((bool)(this["ShowSettingsAtStartup"]));
+            }
+            set {
+                this["ShowSettingsAtStartup"] = value;
+            }
+        }
     }
 }
